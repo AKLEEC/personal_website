@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+#navBox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#topBox {
+    height: 33%;
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+}
+
+#heroBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.name {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.desc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#midBox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#contentTitleBox {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+#contentBoxes {
+    display: flex;
+    justify-content: center, space-between;
+    gap: 250px;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contentImage {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+}
+
+.contentText {
+    width: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+}
